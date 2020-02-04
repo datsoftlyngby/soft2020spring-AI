@@ -1,3 +1,3 @@
 ## AI Code Repo
-### [Notebooks](Notebooks/readme.md)
+### [Notebooks](notebooks/readme.md)
 ### [Data Sets](data/readme.md)
