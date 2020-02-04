@@ -1,1 +1,3 @@
-Public AI code repo
+## AI Code Repo
+### [Notebooks](Notebooks/readme.md)
+### [Data Sets](data/readme.md)
