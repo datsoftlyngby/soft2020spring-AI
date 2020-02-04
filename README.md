@@ -1,4 +1,5 @@
 # soft2020spring-AI
-## Learning Resources  for  AI@CPHBUS  by Dora Dimitrova
+## Programming Examples as Learning Resources for AI 
+## by Dora Dimitrova at CPHBusiness DK 
 
  
