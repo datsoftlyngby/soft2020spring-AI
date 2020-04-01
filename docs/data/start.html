@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang=“en”>
+   <head>
+        {% block meta %}
+            <meta charset=“utf-8”>
+            <meta name=“viewport” intent = “width=device-width, initial-scale=1.0”>
+        {% endblock meta %}
+
+        {% block styles %}   {% endblock styles %}
+
+        <title> {% block title %} Title {% endblock title %} </title>
+    </head>
+    
+    <body>
+        <div id=“page-content”>
+          {% block page_content %}
+
+            <h1>
+                {% if name %}
+                    Hello, {{name}}!
+                {% else %}
+                    Hi, there!
+                {% endif %}
+            </h1>    
+          {% endblock page_content %}
+        </div>
+
+        <div id=“footer”>
+          {% block footer %}
+
+          {% endblock footer %}
+        </div>
+    </body>
+</html>
